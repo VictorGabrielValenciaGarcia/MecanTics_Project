@@ -1,0 +1,93 @@
+.fecha{
+    font-weight: 600;
+    margin-top: -3% !important;
+    margin-bottom: 2.5rem !important;
+    font-size: 0.85rem;
+}
+
+.negritas{
+    font-weight: 600;
+}
+
+.subrayado-centros{
+    text-decoration: underline;
+    color: black;
+    margin-top: -5% !important;
+}
+.subrayado:hover{
+    font-weight: 600;
+    text-decoration: underline;
+    color: black;
+}
+
+.margen-subir-centros{
+    margin-top: -5% !important;
+}
+
+.libreFranklin-centros{
+    font-family: LibreFranklin;
+    font-size: 1.1rem;
+  }
+
+  .titulos-ticktet{
+    margin-top: 4% !important;
+  }
+
+  .izquierda{
+    font-family: LibreFranklin;
+    margin-left: 16%;
+
+  }
+
+  .izq2{
+    font-family: LibreFranklin;
+    margin-left: 16%;
+
+  }
+
+  .derecha{
+    font-family: LibreFranklin;
+    margin-left: -23%;
+  }
+
+  .letra-ticket-info-cliente{
+    font-size: 0.82rem;
+  }
+
+  .letra-ticket-info-producto{
+    font-size: 0.76rem;
+    margin-bottom: 5%;
+  }
+
+  .letra-ticket-info-producto2{
+    font-size: 0.78rem;
+    margin-bottom: 5%;
+  }
+  
+  .subrayado{
+    text-decoration: underline;
+   }
+
+   .der2{
+    font-family: LibreFranklin;
+    margin-left: -5%;
+  }
+
+.fechas{
+    font-family: LibreFranklin;
+    font-size: 0.604rem; 
+    margin-bottom: 4%;
+}
+
+.fechas-inf{
+    font-family: LibreFranklin;
+    font-size: 0.59rem; 
+}
+
+.gren_ticket{
+
+  border-bottom: 3px dotted #abd17d;
+  border-bottom-style: dotted;
+  padding-bottom: 2.5%;
+
+}

@@ -1,0 +1,50 @@
+.negritas{
+    font-weight: 600;
+}
+
+.negritas-p {
+    font-weight: 600;
+    margin-right: 2%;
+}
+
+.letras_productos{
+    margin-bottom: 3%;
+}
+
+.libreFranklin-p{
+    font-family: LibreFranklin;
+    font-size: 1.25rem;
+}
+
+.titulos-p{
+margin-top: 4% !important;
+}
+
+.gren-producto{
+
+    border-top: 3px dotted #abd17d;
+    border-top-style: dotted;
+    padding-top: 6%;
+  
+}
+
+.gren-tittle{
+
+    border-bottom: 3px solid #abd17d;
+    border-bottom-style: inset;
+    padding-bottom: 10%;
+}
+
+.marge-boton{
+    margin-top: -25%;
+}
+
+.img-fluid-p {
+    max-width: auto;
+    height: 10rem;
+  }
+
+  .negritas{
+    font-weight: 600;
+}
+

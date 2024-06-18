@@ -1,0 +1,1257 @@
+/*-------------- Generalidades ---------------------*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+  @font-face {
+          font-family: Trueborn;
+          src: url(../Tipografía/Trueborn-Extented.ttf) format("truetype")
+      }
+
+  @font-face {
+          font-family: UbuntuBold;
+          src: url(../Tipografía/Ubuntu-Medium.ttf) format("truetype")
+      }
+
+  @font-face {
+          font-family: LibreFranklin;
+          src: url(../Tipografía/LibreFranklin-VariableFont_wght.ttf) format("truetype")
+      }
+
+  @font-face {
+          font-family: Rajdhani;
+          src: url(Tipografía/Rajdhani-SemiBold.ttf) format("truetype")
+      }
+
+    @font-face {
+      font-family: OpenSans;
+      src: url(Tipografía/OpenSans-Bold.ttf) format("truetype")
+    }
+    
+    @font-face {
+      font-family: OpenSansBold;
+      src: url(Tipografía/OpenSans-Bold.ttf) format("truetype")
+    }
+
+    @font-face {
+      font-family: SongMyung;
+      src: url(Tipografía/SongMyung-Regular.ttf) format("truetype")
+    }
+
+  body{
+
+      background-color: #f1f5e1;
+  }
+
+  a {
+    color: #337ff0;
+    text-decoration: underline;
+  }
+
+  a:hover{
+    text-decoration: line-through;
+  }
+  /* Barra de navegación*/
+
+  .backbarsup{
+
+      background-color: #8ce0aa;
+      
+    
+  }
+
+  .backbarsupsec{
+
+      background-color: rgb(96, 220, 167);
+      margin-bottom: -5%;
+    
+  }
+  .backbarinf{
+
+      background-color: #C9F0B1;
+    
+  }
+  .backbarinflogin{
+
+      background-color: #C9F0B1;
+      margin-top: 9%;
+    
+  }
+  .backbarinfadmi{
+
+      background-color: #C9F0B1;
+      margin-top: 0%;
+    
+  }
+  .backbarinfus{
+
+      background-color: #ECF2D7;
+      
+    
+  }
+
+  .trueborinicio{
+
+      font-family: Rajdhani;
+      font-size: 37px;
+      font-weight: 900;
+      color: #352D72;
+      text-align: center;
+      margin-top: 8%;
+    
+      
+
+  }
+  .trueboriniciosec{
+
+      font-family: Rajdhani;
+      font-size: 32px;
+      font-weight: 900;
+      color: #352D72;
+
+  }
+
+  .trueborinicionot{
+
+      font-family: Rajdhani;
+      font-size: 2.1rem;
+      color: #352975;
+      font-weight: 700;
+      margin-top: 5%;
+      
+
+  }
+  .trueboriniciosecnot{
+
+      font-family: Rajdhani;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #352975;
+
+  }
+
+
+  .trueborinicioadmi{
+
+      font-family: Rajdhani;
+      font-size: 2.5rem;
+      color: #352975;
+      font-weight: 700;
+      margin-top: 5%;
+      
+
+  }
+  .trueboriniciosecadmni{
+
+      font-family: Rajdhani;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #352975;
+
+  }
+
+  .trueborinicioDesc{
+
+      font-family: Rajdhani;
+      font-size: 37px;
+      font-weight: 800;
+      text-align: center;
+      margin-top: 3%;
+      color: #352975;
+
+  }
+  .trueborinicioDescmin{
+
+      font-family: Rajdhani;
+      font-size: 32px;
+      font-weight: 800;
+      color: #352975;
+
+  }
+
+  .TitlesADMdesc {
+    font-family: SongMyung;
+    color: #4c9573;
+    font-size: 30px;
+    margin-bottom: -2% !important;
+  }
+
+  .opensansBackHome{
+
+  font-family: LibreFranklin;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  padding: 8px;
+  }
+
+  .opensans{
+
+  font-family: LibreFranklin;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  padding: 12px;
+
+  }
+  .opensansblack{
+
+  font-family: OpenSansBold;
+  color: rgb(0, 0, 0) !important;
+
+  padding: 15px;
+  font-weight: 600;
+  }
+  .opensansbutmod{
+    font-family: OpenSansBold;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    padding: 8px;
+    font-weight: 400;
+  }
+
+
+
+
+/*-------------- Inicio ---------------------*/
+
+  .borderpres{
+
+    border-radius: 4rem;
+  }
+
+  .textoAdvertencia{
+  margin-bottom: -1px;
+    font-size: 18px;
+    font-family: LibreFranklin;
+  }
+
+  .textoAdvertencia2{
+  margin-bottom: -1px;
+    font-size: 20px;
+    font-family: LibreFranklin;
+    color: #2f2f2f;
+  }
+
+  .textoAdvertenciabold{
+    font-size: 18px;
+    font-family: LibreFranklin;
+    font-weight: 600;
+  }
+
+  .opensansnoaccess{
+
+    font-family: LibreFranklin;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    font-size: 20px;
+    width: 60% !important;
+    }
+
+  .textdesc{
+  
+    font-size: 14.3px;
+    font-family: LibreFranklin;
+  }
+
+  h6{
+    font-size: 12px;
+  }
+
+  .textinfcon{
+    font-family: LibreFranklin;
+    font-weight: 600;
+    font-size: 12px;
+    color: #101111;
+    text-decoration: none;
+  }
+
+  .textinfconcorr{
+    font-family: LibreFranklin;
+    font-weight: 600;
+    font-size: 12px;
+    color: #101111;
+  }
+
+  .textinfconcorr:hover{
+
+    color: #51966c;
+    text-decoration: underline;
+  }
+  .textinfcon:hover{
+
+    color: #51966c;
+    text-decoration: underline;
+  }
+
+  .modal{
+
+    width: 92%;
+
+    margin-left: 4%;
+    
+
+  }
+
+
+  .modal-content{
+
+    border-color: #51966c;
+    border-width: 1px !important;
+    border-radius:0.8rem;
+
+  }
+
+  .nav-link {
+    display: block;
+
+    font-family: LibreFranklin;
+    font-style: italic;
+    color: #101111;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    color: #0b7c60 !important;
+  }
+
+  .nav-link.disabled {
+    color: #0b7c60  !important;
+    pointer-events: none;
+    cursor: default;
+  }
+
+/*--------------Login---------------------*/
+
+  .nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+  }
+  .nav-tabs .nav-link {
+    margin-bottom: 1px;
+    background: none;
+    border: none;  
+  }
+  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    isolation: isolate;
+  }
+  .nav-tabs .nav-link.disabled {
+    color: #0b7c60;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    color: #0b7c60;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+  .nav-tabs .dropdown-menu {
+    margin-top: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .widthbut{
+
+    width: 80%;
+    padding: 2% 3%;
+  }
+
+  .olvpass{
+
+    font-weight: 400;
+    color:#59a4a2 ;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .olvpass:hover{
+
+    
+    color: #3e7edf;
+    
+  }
+
+  .olvpass-cc{
+
+    font-weight: 400;
+    color:#006780 ;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .olvpass-cc:hover{
+
+    
+    color: #01a3cb;
+    
+  }
+
+
+/* NAV SEC*/
+
+  .userfont {
+    font-family: LibreFranklin;
+    color: #fff;
+    font-size: 89%;
+    margin-top: 10%;
+    margin-right: -21%;
+  }
+
+  .points{
+
+    border-bottom: 3px solid #8CB375;
+    padding-bottom: 1%;
+    border-bottom-style: inset;
+
+  }
+
+/*--------------Usuarios---------------------*/
+
+
+  .Titles{
+
+    font-family: LibreFranklin;
+    color: #4c9573;
+    font-size: 35px;
+    margin-bottom: -2% !important;
+    
+  }
+  .Titles2{
+
+    font-family: LibreFranklin;
+    color: #4c9573;
+    font-size: 25px;
+  
+    
+  }
+  .tarjetasCamb{
+
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top:  7%;
+    margin-bottom:  1%;
+    justify-content: center;
+
+  }
+
+  .barra{
+
+    background-image: url(../Img/CintaTarjetas.png);
+    background-repeat: no-repeat;
+  background-size: 25rem;
+    background-position-x: center;
+    background-position-y: center ;
+    width: 100%;
+  }
+
+  .modal-title-conocenos{
+
+    margin-top: 30%;
+    font-family: Rajdhani;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    color: #09b98a;
+
+  }
+
+  .modal-title-cambioinfo{
+
+    margin-bottom: -5%;
+    line-height: 1.5;
+    font-family: LibreFranklin;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+  }
+
+  .modal-title-contact{
+
+    margin-bottom: -5%;
+    line-height: 1.5;
+    font-family: LibreFranklin;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+
+  }
+
+  .modal-title-home{
+
+    margin-top: -5%;
+    line-height: 1.5;
+    font-family: LibreFranklin;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+
+  }
+
+  .modal-title-homemini{
+
+    margin-top: -5%;
+    margin-bottom: -4%;
+    line-height: 1.5;
+    font-family: Rajdhani;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+
+  }
+
+  .modal-title-user{
+
+    margin-top: -5%;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+
+  }
+  .modal-subtitle-user{
+
+    margin-top: -5%;
+    
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 180;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: -5%;
+  }
+
+  .bgsucs{
+
+    background-color: #f9fded; width: 100%;
+    padding: 1%;
+    padding-left: 5%;
+    border-radius: 0.3rem;
+    font-weight: 480;
+  }
+
+
+  .textuser{
+
+  font-style: normal;
+  font-weight: 490;
+
+  }
+
+
+  .poscarr{
+    width: 94%;
+    margin-left: 3%;
+
+  
+  }
+
+  .poscarruser{
+    width: 96%;
+    margin-left: 2%;
+
+  
+  }
+
+  .h5-cata{
+
+    font-size: 16px;
+    font-family: LibreFranklin;
+    font-weight: 700;
+
+  }
+
+  .disponible{
+    font-size: 12px;
+    font-family: LibreFranklin;
+    font-weight: 600;
+    color:#10ac47;
+  }
+
+  .outstock{
+    font-size: 12px;
+    font-family: LibreFranklin;
+    font-weight: 600;
+    color:crimson;
+  }
+
+  .denotar-cata{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: LibreFranklin;
+  }
+
+  .p-cata{
+    font-size: 12px;
+    font-family: LibreFranklin;
+  }
+
+  .p-cataedo{
+    font-size: 12px;
+    font-family: LibreFranklin;
+    margin-top: -8%;
+  }
+
+  .yell{
+
+    border-bottom: 2px solid #F2D988;
+    border-bottom-style: inset;
+    padding-bottom: 5%;
+  }
+
+  .gren{
+
+    border-bottom: 3px solid #abd17d;
+    border-bottom-style: inset;
+    padding-bottom: 2.5%;
+  }
+
+  .gren-changepass{
+
+    border-bottom: 3px solid #abd17d;
+    border-bottom-style: inset;
+    padding-bottom: 2.5%;
+    margin-bottom: -2.5% !important;
+  }
+
+  .gren-changeprofile{
+
+    border-bottom: 3px solid #abd17d;
+    border-bottom-style: inset;
+    padding-bottom: 1%;
+    margin-bottom: 0.5% !important;
+  }
+
+  .passpos{
+
+    margin-top: -14%;
+
+  }
+
+  .modal-titlereg{
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+
+  .modal-canjeo{
+
+    
+    font-family: LibreFranklin;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -3%;
+  }
+
+  .margenestabilizador{
+
+    margin-top: -5%;
+  }
+  .margenestabilizadorinf{
+
+    padding-bottom: -25%;
+  }
+
+
+  .changeresprofile{
+
+    font-weight: bolder;
+    font-family: LibreFranklin;
+    color: #181b1b;
+    text-decoration: none;
+    font-size: 15.4px;
+    text-align: justify;
+  }
+  .changeresprofile:hover{
+
+    
+    color: #1f6a4a;
+    background-color: #f0f5ea;
+    opacity: 0.5;
+    
+  }
+
+  .mar-iconnav1{
+
+    margin-left: 35%;
+  }
+
+  .mar-iconnav2{
+
+    margin-left: 40%;
+  }
+
+  .mar-iconnav3{
+
+    margin-left: 20%;
+  }
+
+  .mar-iconnav4{
+
+    margin-left: 27%;
+  }
+
+  .mar-iconnav5{
+
+    margin-left: 30%;
+  }
+
+  .widthbutcam{
+
+    width: 70%;
+    padding: 0.3rem !important;
+
+  }
+
+  .widthbutcampass1{
+
+    width: 30%;
+    padding: 0.3rem !important;
+
+  }
+
+  .opensanscam{
+
+    font-family: LibreFranklin;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    font-size: 16px;
+    width: 100% !important;
+    }
+    
+
+/*-------------- Centro de Canjeo ---------------------*/
+
+    .Titles2ADM{
+
+      font-family: LibreFranklin;
+      color: #4c9573;
+      font-size: 165%;
+
+    }
+
+    .imgadm{
+      margin-top: 100%;
+      background-position-x: center;
+      background-position-y: center ;
+      margin-left: 0%;
+    }
+
+
+    .cardfondo{
+
+      background-color: #F8FFE8 !important;
+    }
+
+    .modal-title-descontador {
+      margin-top: -8%;
+      line-height: 1.5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: 200;
+      font-size: 2.3rem;
+      text-align: center;
+    }
+
+    .modal-subtitle-descontador {
+      margin-top: -5%;
+      line-height: 1.5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: 180;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+
+    .modal-title-des{
+
+      margin-top: -5%;
+      line-height: 1.5;
+      font-family: LibreFranklin;
+      font-weight: 500;
+      font-size: 32px;
+      text-align: center;
+    }
+    .modal-subtitle-des {
+      margin-top: -5%;
+      line-height: 1.5;
+      font-family: 'LIBREFRANKLIN';
+      font-weight: 180;
+      font-size: 1.05rem;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+
+    .bgsucsdesc{
+
+      background-color: rgba(210, 232, 163, 0.25); width: 80%;
+      border-radius: 0.3rem;
+      font-weight:450;
+      font-size: 14px;
+      padding: 3.5%;
+    }
+
+
+    .imgdesc{
+      margin-top: 65%;
+
+      margin-left: 12%;
+
+    }
+
+
+    .Puntos{
+
+      font-family: LibreFranklin;
+      font-size: 4rem;
+      color: #206150;
+
+
+    }
+    .Puntosletter{
+
+      font-family: LibreFranklin;
+      font-size: 3rem;
+    }
+
+
+    .Puntosusuario{
+
+      font-family: LibreFranklin;
+      font-size: 75px;
+      color: #206150;
+
+
+    }
+    .Puntosletterusuario{
+
+      font-family: LibreFranklin;
+      font-size: 55px;
+    }
+
+    .form-controldesc {
+      display: block;
+      width: 55%;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.95rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+
+/*  --------- Modificaciones --------- */
+
+.desimp{
+  border-radius: 0.4rem !important;
+  width: 100%;
+}
+
+.mensajenovalid{
+
+  color:rgb(198, 17, 17);
+  background-color: rgb(252, 237, 237);
+  border-radius: 0.65rem;
+text-align: center;
+border: 1px solid rgb(198, 17, 17);
+}
+
+.mensajenovalid:hover{
+
+  color:rgb(153, 27, 27);
+  background-color: rgb(252, 227, 227);
+  border-radius: 0.75rem;
+text-align: center;
+  border: 1px solid rgb(153, 27, 27);
+}
+
+
+.showpass{
+  color:#b8bcc1;
+} 
+.showpass:hover{
+  color:#70BAA3;
+} 
+
+.botonperfil{
+  margin-left: 18%;
+  margin-top: 2%;
+}
+
+.fondaxolt{
+  background-image: url(../Img/Hex.png);
+  background-repeat: no-repeat;
+  background-size: 25rem;
+  background-position-x: center;
+  background-position-y: center ;
+  width: 100%;
+  height: 19rem;
+}
+
+.margintopaxol{
+  margin-top: 8%;
+}
+.margintopaxoldown{
+  margin-bottom: 9%;
+}
+
+.loginletter {
+  font-family: LibreFranklin;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  font-size: 22px;
+  padding: 4.7% 10%;
+}
+
+.secundarios{
+  font-family: LibreFranklin;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  font-size:19px ;
+  padding: 7% 7%;
+  width: 100%;
+  border-radius: 0.85rem;
+}
+
+.secundariosCatalogo{
+  font-family: LibreFranklin;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  font-size:16px ;
+  padding: 4%;
+}
+
+.grentop{
+
+  border-top: 3px solid #b2d99c;
+  border-top-style: inset;
+  padding-top: 3%;
+}
+
+.buscaruser{
+  background-color: white;
+  border-color: #B8CD7A;
+  border-width: 1.5px !important;
+}
+
+.buscauser{
+  width: 50%;
+}
+
+.backgreen{
+  background-color: #f2f8eb;
+}
+
+.margin{
+  width: 88%;
+  align-items: center;
+}
+
+.butondimension{
+  width: 88%;
+}
+
+.centrador{
+  justify-content:center;
+  margin-top:auto;
+}
+
+.butonletter{
+  font-family: LibreFranklin;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  font-size:15px ;
+  padding: 5% 4%;
+  width: 100%;
+}
+
+.letrastittlelogin{
+
+  font-family: Rajdhani;
+  font-size: 1.4rem;
+  color: #352975;
+  font-weight: 700;
+  margin-top: 8%;
+  
+
+}
+.letrastittleloginminus{
+
+  font-family: Rajdhani;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #352975;
+
+}
+
+.advertencia{
+  color: #53918e;
+  font-family: UbuntuBold;
+  font-size: 210%;
+}
+
+.cardAdvertencia{
+  background-color: rgb(249, 255, 241);
+  border-color: #B8CD7A;
+  border-width: 1.5px !important;
+  padding: 4% 3.5%;
+}
+
+.enlaces{
+  color: #ba32aa;
+}
+
+.libreFranklin{
+  font-family: LibreFranklin;
+}
+
+.margintophome{
+  margin-bottom: 9%;
+}
+
+.padding-centrador{
+  padding: 8% 5.5%;
+}
+
+#splash {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1055;
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background-color: #8ce0aa;
+
+}
+
+#splashusuario {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1055;
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background-color: #8ce0aa;
+
+}
+
+.imgsplah{
+
+  margin-top: 55%;
+  margin-bottom: 7%;
+
+}
+
+
+
+.trueborinicio-splah{
+
+  font-family: Rajdhani;
+  font-size: 2.7rem;
+  color: #352975;
+  font-weight: 700;
+  margin-top: 5%;
+  text-align: center;
+
+}
+.trueboriniciosec-splah{
+
+  font-family: Rajdhani;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #352975;
+  text-align: center;
+
+}
+
+.usuario-splash{
+
+  font-family: LibreFranklin;
+  font-size: 1.95rem;
+  font-weight: 600;
+  color: #ECF2D7;
+  text-align: center;
+}
+
+.gren-log{
+
+  border-bottom: 1.2px solid #51966c;
+  border-bottom-style: inset;
+  padding-bottom: 2.5%;
+}
+
+.tabs-login{
+  margin-top: -11%;
+  margin-bottom: 0%;
+}
+
+.nav-link-login {
+  display: block;
+
+  font-family: LibreFranklin;
+  font-style: italic;
+  color: #101111;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link-login:hover {
+
+  display: block;
+  font-family: LibreFranklin;
+  /* font-style: normal !important; */
+  font-weight: 600!important;
+  text-decoration: none;
+}
+
+.modal-title-login{
+
+
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.registro-canjeo-link{
+  color: #408bc9;
+}
+
+.regadm{
+  cursor: default;
+}
+
+.regadm:hover{
+  cursor: default;
+}
+
+.bg-progressbar{
+  background-color: #44837b;
+
+}
+
+.gren-catalogo{
+
+  border-bottom: 1px solid #B2CF76;
+  border-bottom-style: inset;
+}
+
+
+.denotar-avance{
+  font-size: 12px;
+  font-weight: 600;
+  font-family: LibreFranklin;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+}
+
+.axoldead{
+  width: auto;
+  height: 100%;
+
+}
+
+.alert-bonito{
+  padding-top: 7%;
+  margin-bottom: -8%;
+}
+
+.botones-admi{
+  margin-top: 2.35rem;
+}
+
+.interid-cata{
+  font-size: 16px;
+  font-family: LibreFranklin;
+  font-weight: 600;
+  margin-top: 56%;
+  margin-bottom: 50%;
+}
+
+.inter-cata{
+  font-size: 16px;
+  font-family: LibreFranklin;
+  font-weight: 500;
+  margin-top: 18.5%;
+}
+
+.button-intercambio{
+  margin-top: 36%;
+  align-items: center;
+}
+
+.button-intercambio-info{
+  margin-top: 20%;
+  align-items: center;
+}
+
+.botones-admi-listas{
+  margin-bottom: -1px;
+   font-size: 20px;
+   font-family: LibreFranklin;
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ .botones-admi-listas:hover{
+  text-decoration: none;
+ }
+
+ .opensansbuy{
+  color: white;
+ }
+
+ .inter-lista-edo-letra{
+  font-size: 13px;
+  font-family: LibreFranklin;
+  font-weight: 500;
+  margin-bottom: 1%;
+}
+
+.letras-acciones{
+  font-size: 12px;
+  font-family: LibreFranklin;
+  font-weight: 500;
+  margin-bottom: -2%;
+}
+
+.interid-lista-edo-letra {
+  font-size: 16px;
+  font-family: LibreFranklin;
+  font-weight: 600;
+  margin-top: 3.7rem;
+}
+
+.widthbut-estados{
+
+  width: 100%;
+  padding: 2% 3%;
+}

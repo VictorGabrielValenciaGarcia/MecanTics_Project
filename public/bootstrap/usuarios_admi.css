@@ -1,0 +1,136 @@
+@font-face {
+    font-family: LibreFranklin;
+    src: url(../Tipografía/LibreFranklin-VariableFont_wght.ttf) format("truetype")
+}
+
+/* ----------------------------- */
+
+.usuinfobody{
+
+    font-family: LibreFranklin;
+    font-size: 0.75rem;
+    margin-bottom: 3%;
+    
+}
+
+.usuinfotitle{
+
+    font-family: LibreFranklin;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.es-centro{
+    color: #3d2ba4;
+}
+
+.es-admi{
+    color: #a62b5a  ;
+}
+
+.es-usuario{
+    color: #448a2e;
+}
+
+.es-usuario-detalles{
+    color: #959033;
+}
+
+.widthbut-user-admi{
+    width: 90%;
+    padding: 4% 4%;
+}
+
+.tamaño-icono-admi{
+    font-size: 1.1rem;
+}
+
+.libreFranklin-username{
+    font-family: LibreFranklin;
+    font-size: 1.25rem;
+}
+
+.titulos-usuarios{
+    margin-top: -3% !important;
+}
+
+.marge-boton-user{
+    margin-top: -30%;
+}
+
+.grren_usuarios_lista{
+
+    border-bottom: 3px dotted #abd17d;
+    border-bottom-style: dotted;
+    padding-bottom: 2.5%;
+  
+}
+
+.Title-username{
+
+    font-family: LibreFranklin;
+    color: #3a8763;
+    font-size: 165%;
+
+}
+
+.tipo{
+    font-weight: 600;
+    margin-top: -2% !important;
+    margin-bottom: 2.5rem !important;
+    font-size: 0.85rem;
+}
+
+.negritas{
+    font-weight: 600;
+}
+
+.libreFranklin-id{
+    font-family: LibreFranklin;
+    font-size: 1.1rem;
+}
+
+.margen-subir-id{
+    margin-top: -5% !important;
+}
+
+.Puntosusuario_lista{
+
+    font-family: LibreFranklin;
+    font-size: 2.5rem;
+    color: #206150;
+    margin-bottom: -2%;
+}
+
+.Puntosletterusuario_lista{
+
+    font-family: LibreFranklin;
+    font-size: 2.2rem;
+}
+
+.letras_puntos_usuarios_lista{
+
+    font-family: LibreFranklin;
+    color: #4c9573;
+    font-size: 1.2rem;
+    margin-bottom: 2% !important;
+    margin-top: 5% !important;
+    
+}
+
+.letra-usuarios-info-escolar{
+    font-size: 0.82rem;
+    font-family: LibreFranklin;
+}
+
+.normal{
+    font-weight: 300;
+}
+
+.margin-letritas-informacion-inst{
+    margin-bottom: 3%;
+}
+
+.margen-correo-inst{
+    margin-left: 7%;
+}
